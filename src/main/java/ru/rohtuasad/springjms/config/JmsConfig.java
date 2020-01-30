@@ -10,6 +10,7 @@ import javax.jms.Message;
 
 @Configuration
 public class JmsConfig {
+    public static final String MY_QUEUE = "hello-world-queue";
 
     @Bean
     public MessageConverter messageConverter() {
