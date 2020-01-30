@@ -11,6 +11,7 @@ import javax.jms.Message;
 @Configuration
 public class JmsConfig {
     public static final String MY_QUEUE = "hello-world-queue";
+    public static final String MY_SEND_RCV_QUEUE = "replaybacktome";
 
     @Bean
     public MessageConverter messageConverter() {
